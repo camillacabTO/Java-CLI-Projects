@@ -1,0 +1,34 @@
+.inline-div {
+    display: inline-block;
+    padding: 6px 15px;
+}
+
+div {
+    padding: 6px 15px;
+}
+
+.center-stuff{
+    text-align: center;
+    margin: auto;
+}
+
+fieldset {
+    display: inline-block;
+}
+
+form {
+    background-color: antiquewhite;
+}
+
+th {
+    text-align: left;
+}
+
+#box {
+    background-color: cyan;
+    display: inline-block;
+}
+
+h2{
+    color: orange;
+}

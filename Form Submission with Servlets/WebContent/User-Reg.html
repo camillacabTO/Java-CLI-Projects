@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>User Registration</title>
+</head>
+<body>
+    <fieldset>
+        <form action="UserProcess" method="post">
+            <div>
+                <h1 class="center-stuff">USER REGISTRATION</h1>
+                <p class="center-stuff">* Required Fields</p>
+            </div>
+
+            <div class="inline-div"><label for="first-name">First Name *<br><input type="text" name="first-name"></label></div>
+            <div class="inline-div"><label for="last-name">Last Name *<br><input type="text" name="last-name"></label></div><br>
+            <div class="inline-div"><label for="email">Email *<br><input type="email" name="email"></label></div>
+            <div class="inline-div"><label for="zip-code">Zip Code *<br><input type="text" name="zip-code"></label></div>
+            <div><label for="user-name">User Name *<br><input type="text" name="user-name"></label></div>
+            <div class="inline-div"><label for="password">Password *<br><input type="password" name="password"></label></div>
+            <div class="inline-div"><label for="confirm-password">Confirm Password *<br><input type="password" name="confirm-password"></label></div>
+
+            <div>
+                <p>What music are you interested in?</p>
+                <label><input type="checkbox" name="music-genre" value="rock"> Rock</label>
+                <label><input type="checkbox" name="music-genre" value="pop"> Pop</label>
+                <label><input type="checkbox" name="music-genre" value="bluegrass"> Bluegrass</label>
+                <label><input type="checkbox" name="music-genre" value="blues"> Blues</label>
+                <label><input type="checkbox" name="music-genre" value="Jazz"> Jazz</label>
+                <label><input type="checkbox" name="music-genre" value="country"> Country</label>
+            </div>
+            <div>
+                <p>Would you like to receive e-mail notifications on our special sales?</p>
+                <label><input type="radio" name="notifications" value="yes" checked> Yes</label>
+                <label><input type="radio" name="notifications" value="no"> No</label>
+            </div>
+            <div class="center-stuff">
+                <input type="submit" value="Submit">
+                <input type="reset" name="reset" value="Reset">
+            </div>
+        </form>
+    </fieldset>
+    
+</body>
+</html>
