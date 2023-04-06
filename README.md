@@ -1,2 +1,3 @@
-# Java-Inital-Projects
+# Java CLI Projects
+
 Java Training
